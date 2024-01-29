@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+@layer base {
+  .padding {
+    @apply px-[20px] sm:px-[70px] md:px-[75px] lg:px-[90px] xl:px-[110px] 2xl:px-[120px] 3xl:px-[170px] desktop:px-[200px] ultra:px-[300px];
+  }
+  
+  .navbar-link{
+    @apply hover:font-semibold text-navbar text-[7.82px] md:text-[11px] xl:text-[15px] 2xl:text-[16px] desktop:text-[18px] hover:text-primary border-white border-b hover:border-primary duration-500;
+  }
+
+  .button-animation {
+    @apply hover:brightness-[75%] hover:scale-110 duration-300;
+  }
+}
