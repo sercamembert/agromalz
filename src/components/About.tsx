@@ -14,14 +14,14 @@ my-[90px] md:my-[80px] lg:my-[104px] xl:my-[130px] 3xl:my-[140px] desktop:my-[16
         <h2 className="font-primary font-bold text-primary font-poppins leading-tight text-[24px] md:text-[25px] lg:text-[33px] xl:text-[41px] 2xl:text-[47px] desktop:text-[51px] ultra:text-[76px]">
           Kim jesteśmy?
         </h2>
-        <div className="flex flex-col gap-[10px] mt-[5px]">
-          <p className="text-[12px] md:text-[11px] lg:text-[14.49px] xl:text-[18.12] 2xl:text-[20.38px] desktop:text-[22px] ultra:text-[33px]">
+        <div className="flex flex-col gap-[10px] lg:gap-[15px] mt-[5px] ultra:max-w-[970px] ultra:gap-[20px]">
+          <p className="text-[12px] md:text-[11px] lg:text-[12.49px] xl:text-[15.12] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px]">
             AgroMalz to wiodące gospodarstwo w uprawie cebuli w Polsce. Nasza
             pasja i zaangażowanie przekładają się na najwyższą jakość naszych
             warzyw. Dzięki zrównoważonym praktykom rolniczym oferujemy produkty
             spełniające najwyższe standardy.
           </p>
-          <p className="text-[12px] md:text-[11px] lg:text-[14.49px] xl:text-[18.12] 2xl:text-[20.38px] desktop:text-[22px] ultra:text-[33px]">
+          <p className="text-[12px] md:text-[11px] lg:text-[12.49px] xl:text-[15.12] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px]">
             Stawiamy na innowacyjne podejście do rolnictwa, dbając jednocześnie
             o ochronę środowiska. Nasze pola są owocem ciężkiej pracy i
             staranności, zapewniając świeżość i wyjątkowy smak cebuli.
@@ -41,11 +41,11 @@ my-[90px] md:my-[80px] lg:my-[104px] xl:my-[130px] 3xl:my-[140px] desktop:my-[16
           </button>
         </Link>
       </div>
-      <div className="flex flex-col gap-[5px] lg:gap-[7px] xl:gap-[9px]  desktop:gap-[10px] ultra:gap-[15px]">
+      <div className="flex flex-col gap-[5px] lg:gap-[7px] xl:gap-[9px]  desktop:gap-[10px] ultra:gap-[15px] w-full">
         <Image
           src={topImg}
           alt="Agromalz"
-          className="rounded-[6px] lg:rounded-[9px] xl:rounded-[11px] desktop:rounded-[13px]"
+          className="rounded-[6px] lg:rounded-[9px] xl:rounded-[11px] desktop:rounded-[13px] w-full"
         />
         <div className="flex gap-[5px] lg:gap-[7px] xl:gap-[9px]  desktop:gap-[10px] ultra:gap-[15px]">
           <Image
