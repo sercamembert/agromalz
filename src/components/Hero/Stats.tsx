@@ -10,9 +10,9 @@ const Stats = () => {
     "
     >
       <div className="flex items-center justify-center md:justify-start gap-[5px]">
-        <h2 className="font-medium text-text text-[14px] md:text-[12px] lg:text-[15px] xl:text-[18px] 2xl:text-[21px] desktop:text-[23px] ultra:text-[34px]">
+        <p className="font-medium text-text text-[14px] md:text-[12px] lg:text-[15px] xl:text-[18px] 2xl:text-[21px] desktop:text-[23px] ultra:text-[34px]">
           Co nas wyróżnia?
-        </h2>
+        </p>
         <Image
           src={starImg}
           alt="Co nas wyróżnia?"
