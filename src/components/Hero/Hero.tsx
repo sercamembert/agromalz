@@ -19,8 +19,8 @@ const Hero = () => {
         <Link href="/onas" className="mx-auto md:mx-0">
           <button
             className="bg-primary text-white rounded-[2px] xl:rounded-[4px] 3xl:rounded-[5px] 
-          h-[20px] md:h-[19px] lg:h-[25px] xl:h-[31px] 2xl:h-[35px] desktop:h-[38px] ultra:h-[56px]
-          font-medium font-poppins text-[8px] md:text-[8px] lg:text-[10px] xl:text-[13.62px] desktop:text-[15px] ultra:text-[23px] px-3 xl:px-6
+          h-[25px] md:h-[22px] lg:h-[25px] xl:h-[31px] 2xl:h-[35px] desktop:h-[38px] ultra:h-[56px]
+          font-medium font-poppins text-[10px] md:text-[9px] lg:text-[10px] xl:text-[13.62px] desktop:text-[15px] ultra:text-[23px] px-3 xl:px-6
            button-animation cursor-pointer
            md:w-auto md:min-w-[94px] lg:min-w-[125px] xl:min-w-[155px] 2xl:min-w-[175px] desktop:min-w-[190px] ultra:min-w-[283px]
           flex items-center justify-center
@@ -30,7 +30,9 @@ const Hero = () => {
           </button>
         </Link>
 
-        <Stats />
+        <div className="hidden md:block">
+          <Stats />
+        </div>
       </div>
       <Image
         src="/images/hero/hero.png"
@@ -39,6 +41,9 @@ const Hero = () => {
         height={952}
         className="w-full max-w-[260px] md:max-w-full mx-auto md:w-[46%] mt-[40px] md:mt-0"
       />
+      <div className="block md:hidden">
+        <Stats />
+      </div>
     </div>
   );
 };
