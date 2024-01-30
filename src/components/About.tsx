@@ -11,9 +11,7 @@ const About = () => {
 my-[90px] md:my-[80px] lg:my-[104px] xl:my-[130px] 3xl:my-[140px] desktop:my-[160px] ultra:my-[240px]"
     >
       <div className="flex flex-col w-full justify-center">
-        <h2 className="font-primary font-bold text-primary font-poppins leading-tight text-[24px] md:text-[25px] lg:text-[33px] xl:text-[41px] 2xl:text-[47px] desktop:text-[51px] ultra:text-[76px]">
-          Kim jesteśmy?
-        </h2>
+        <h2 className="heading">Kim jesteśmy?</h2>
         <div className="flex flex-col gap-[10px] lg:gap-[15px] mt-[5px] ultra:max-w-[970px] ultra:gap-[20px]">
           <p className="text-[12px] md:text-[11px] lg:text-[12.49px] xl:text-[15.12] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px]">
             AgroMalz to wiodące gospodarstwo w uprawie cebuli w Polsce. Nasza

@@ -19,4 +19,12 @@ html {
   .button-animation {
     @apply hover:brightness-[75%] hover:scale-110 duration-300;
   }
+
+  .heading{
+    @apply  font-bold text-primary font-poppins leading-tight text-[24px] md:text-[25px] lg:text-[33px] xl:text-[41px] 2xl:text-[47px] desktop:text-[51px] ultra:text-[76px];
+  }
+
+  .crops-gap{
+    @apply gap-[15px] md:gap-[45px] lg:gap-[60px] xl:gap-[75px] 2xl:gap-[85px] desktop:gap-[93px] ultra:gap-[141px]
+  }
 }
