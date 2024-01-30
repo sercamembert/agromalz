@@ -19,12 +19,14 @@ const Crops = () => {
           name="Cebula"
           text="Cebula to nieodłączna część naszych upraw"
         />
-        <div className=" relative left-1/2 md:left-0">
-          <CropsBlock
-            image="/images/crops/slonecznik.png"
-            name="Słonecznik"
-            text="Słonecznik jest jedna z ważniejszych upraw"
-          />
+        <div className=" col-span-2 flex justify-center md:col-span-1">
+          <div className="w-1/2 md:w-full">
+            <CropsBlock
+              image="/images/crops/slonecznik.png"
+              name="Słonecznik"
+              text="Słonecznik jest jedna z ważniejszych upraw"
+            />
+          </div>
         </div>
       </div>
       <p
