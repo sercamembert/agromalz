@@ -58,7 +58,7 @@ const Services = () => {
         </div>
       </div>
       <p
-        className="text-center text-primary md:text-right font-semibold text-[11px] lg:text-[14px] xl:text-[17px] 2xl:text-[19px] desktop:text-[21px] ultra:text-[33px]
+        className="text-primary text-right font-semibold text-[12px] lg:text-[14px] xl:text-[17px] 2xl:text-[19px] desktop:text-[21px] ultra:text-[33px]
       mt-[24px] lg:mt-[32px] xl:mt-[40px] 2xl:mt-[45px] desktop:mt-[50px] ultra:mt-[73px]
       
       "
