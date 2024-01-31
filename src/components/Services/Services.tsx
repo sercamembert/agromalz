@@ -5,7 +5,7 @@ import Image from "next/image";
 import Link from "next/link";
 const Services = () => {
   return (
-    <div className="padding relative flex flex-col mb-[90px] md:mb-[80px] lg:mb-[104px] xl:mb-[130px] 3xl:mb-[140px] desktop:mb-[160px] ultra:mb-[240px]">
+    <div className="padding relative flex flex-col mb-[65px] md:mb-[80px] lg:mb-[104px] xl:mb-[130px] 3xl:mb-[140px] desktop:mb-[160px] ultra:mb-[240px]">
       <Image
         src={rectangleImg}
         alt="Usługi AgroMalz"
