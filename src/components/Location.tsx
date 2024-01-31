@@ -28,7 +28,7 @@ const Location = () => {
             className="w-[14px] lg:w-[15px] xl:w-[19px] 2xl:w-[21px] 3xl:w-[23px] desktop:w-[30px] ultra:w-[38px]"
           />
           <p className="text-[13px] lg:text-[16px] xl:text-[19px] 2xl:text-[21px] desktop:text-[25px] ultra:text-[39px]">
-            500 338 717
+            +48 500 338 717
           </p>
         </div>
         <div className="flex items-center gap-[7px] xl:gap-[10px] 2xl:gap-[12px] desktop:gap-[15px] ultra:gap-[21px]">
