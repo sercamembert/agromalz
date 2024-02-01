@@ -4,7 +4,7 @@ const Contact = () => {
   return (
     <section className="padding relative mb-[90px] md:mb-[80px] lg:mb-[104px] xl:mb-[130px] 3xl:mb-[140px] desktop:mb-[160px] ultra:mb-[240px]">
       <div className="container mx-auto">
-        <div className="flex flex-col text-center w-full mb-[26px] md:mb-[40px] lg:mb-[53px] xl:mb-[66px] 2xl:mb-[75px] ultra:mb-[120px]">
+        <div className="flex flex-col text-center w-full mb-[26px] md:mb-[40px] lg:mb-[53px] xl:mb-[66px] 2xl:mb-[55px] ultra:mb-[120px]">
           <h3 className="heading ">Kontakt</h3>
           <p className="mx-auto service-text">
             Wypełnij formularz, a my skontaktujemy się z Tobą w ciągu 24 godzin.
@@ -16,7 +16,10 @@ const Contact = () => {
           <div className="flex flex-wrap -m-2">
             <div className="p-2 w-1/2">
               <div className="relative">
-                <label htmlFor="name" className="service-text text-gray-600">
+                <label
+                  htmlFor="name"
+                  className="text-[11px] lg:text-[15px] 2xl:text-[17px] desktop:text-[18px] ultra:text-[29px] text-gray-600"
+                >
                   Imie i Nazwisko
                 </label>
                 <input
@@ -24,14 +27,17 @@ const Contact = () => {
                   id="name"
                   name="name"
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-primary focus:bg-white outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out
-                  text-[11px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] desktop:text-[20px] ultra:text-[29px] h-[30px] md:h-[35px] lg:h-auto
+                  text-[11px] lg:text-[15px] 2xl:text-[17px] desktop:text-[18px] ultra:text-[29px] h-[30px] md:h-[35px] lg:h-auto
                   "
                 />
               </div>
             </div>
             <div className="p-2 w-1/2">
               <div className="relative">
-                <label htmlFor="email" className="service-text text-gray-600">
+                <label
+                  htmlFor="email"
+                  className="text-[11px] lg:text-[15px] 2xl:text-[17px] desktop:text-[18px] ultra:text-[29px] text-gray-600"
+                >
                   Email
                 </label>
                 <input
@@ -39,25 +45,28 @@ const Contact = () => {
                   id="email"
                   name="email"
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-primary focus:bg-white outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out
-                  text-[11px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] desktop:text-[20px] ultra:text-[29px] h-[30px] md:h-[35px] lg:h-auto
+                  text-[11px] lg:text-[15px] 2xl:text-[17px] desktop:text-[18px] ultra:text-[29px] h-[30px] md:h-[35px] lg:h-auto
                   "
                 />
               </div>
             </div>
             <div className="p-2 w-full">
               <div className="relative">
-                <label htmlFor="message" className="service-text text-gray-600">
+                <label
+                  htmlFor="message"
+                  className="text-[11px] lg:text-[15px] 2xl:text-[17px] desktop:text-[18px] ultra:text-[29px] text-gray-600"
+                >
                   Wiadomość
                 </label>
                 <textarea
                   id="message"
                   name="message"
                   className="w-full bg-gray-100 bg-opacity-50 rounded border border-gray-300 focus:border-primary focus:bg-white outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out
-                  text-[11px] lg:text-[15px] xl:text-[16px] 2xl:text-[18px] desktop:text-[20px] ultra:text-[29px] h-32"
+                  text-[11px] lg:text-[15px] 2xl:text-[17px] desktop:text-[18px] ultra:text-[29px] h-32"
                 />
               </div>
             </div>
-            <div className="p-2 w-full">
+            <div className="p-2 w-full lg:pt-[10px] xl:pt-[20px] 2xl:pt-[25px] desktop:pt-[28px]">
               <button
                 className="bg-primary text-white rounded-[2px] xl:rounded-[4px] 3xl:rounded-[5px] 
           h-[30px] lg:h-[33px] xl:h-[38px] 2xl:h-[35px] desktop:h-[39px] ultra:h-[56px]

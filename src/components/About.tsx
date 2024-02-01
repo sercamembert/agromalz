@@ -13,19 +13,19 @@ my-[90px] md:my-[80px] lg:my-[104px] xl:my-[130px] 3xl:my-[140px] desktop:my-[16
       <div className="flex flex-col w-full justify-center">
         <h2 className="heading">Kim jesteśmy?</h2>
         <div className="flex flex-col gap-[10px] lg:gap-[15px] mt-[5px] ultra:max-w-[970px] ultra:gap-[20px]">
-          <p className="text-[12px] md:text-[11px] lg:text-[12.49px] xl:text-[15.12] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px]">
+          <p className="text-[12px] md:text-[11px] lg:text-[12.49px] xl:text-[15.12px] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px]">
             AgroMalz to wiodące gospodarstwo w uprawie cebuli w Polsce. Nasza
             pasja i zaangażowanie przekładają się na najwyższą jakość naszych
             warzyw. Dzięki zrównoważonym praktykom rolniczym oferujemy produkty
             spełniające najwyższe standardy.
           </p>
-          <p className="text-[12px] md:text-[11px] lg:text-[12.49px] xl:text-[15.12] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px]">
+          <p className="text-[12px] md:text-[11px] lg:text-[12.49px] xl:text-[15.12px] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px]">
             Stawiamy na innowacyjne podejście do rolnictwa, dbając jednocześnie
             o ochronę środowiska. Nasze pola są owocem ciężkiej pracy i
             staranności, zapewniając świeżość i wyjątkowy smak cebuli.
           </p>
         </div>
-        <Link href="/onas" className="mt-[10px]">
+        <Link href="/onas" className="mt-[10px] lg:mt-[20px] xl:mt-[25px]">
           <button
             className="bg-primary text-white rounded-[2px] xl:rounded-[4px] 3xl:rounded-[5px] 
           h-[25px] md:h-[22px] lg:h-[25px] xl:h-[31px] 2xl:h-[35px] desktop:h-[38px] ultra:h-[56px]
