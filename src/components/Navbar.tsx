@@ -29,7 +29,9 @@ const Navbar = () => {
   return (
     <>
       <motion.div
-        className={`fixed w-screen h-full top-[80px] bg-primary padding text-[30px] flex flex-col gap-8 md:hidden z-50 ${isOpen && 'text-white'}`}
+        className={`fixed w-screen h-full top-[80px] bg-primary padding text-[30px] flex flex-col gap-8 md:hidden z-50 ${
+          isOpen && "text-white"
+        } ${isScrolled && "bg-primary"}`}
         animate={isOpen ? "open" : "closed"}
         transition={{ duration: 0.5 }}
         variants={variants}
@@ -96,7 +98,7 @@ const Navbar = () => {
         className={`w-full padding h-[80px] ${
           isOpen && "bg-primary"
         } fixed top-0 flex items-center justify-between xl:h-[100px] bg-none md:bg-none z-50 ${
-          isScrolled && "bg-white"
+          isScrolled && "md:bg-white"
         }`}
       >
         <a href="/" aria-description="Strona główna">
@@ -111,14 +113,16 @@ const Navbar = () => {
         </a>
 
         <div className="md:hidden">
-          <Hamburger toggled={isOpen} size={17} toggle={setIsOpen} color={isOpen ? 'white':"black"}/>
+          <Hamburger
+            toggled={isOpen}
+            size={17}
+            toggle={setIsOpen}
+            color={isOpen ? "white" : "black"}
+          />
         </div>
 
         <div className="hidden md:flex items-center">
-          <Link
-            href="/"
-            className="navbar-link"
-          >
+          <Link href="/" className="navbar-link">
             Strona główna
           </Link>
           <Link
@@ -127,10 +131,7 @@ const Navbar = () => {
           >
             Oferta
           </Link>
-          <Link
-            href="/uprawy"
-            className="navbar-link"
-          >
+          <Link href="/uprawy" className="navbar-link">
             Uprawy
           </Link>
           <Link
@@ -139,10 +140,7 @@ const Navbar = () => {
           >
             O nas
           </Link>
-          <Link
-            href="/galeria"
-            className="navbar-link"
-          >
+          <Link href="/galeria" className="navbar-link">
             Galeria
           </Link>
 
