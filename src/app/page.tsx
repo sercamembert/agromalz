@@ -5,6 +5,7 @@ import ImagesHome from "@/components/ImagesHome";
 import Services from "@/components/Services/Services";
 import Location from "@/components/Location";
 import Contact from "@/components/Contact";
+import Ratings from "@/components/Ratings/Ratings";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <Crops />
       <Services />
       <ImagesHome />
+      <Ratings />
       <Location />
       <Contact />
     </main>
