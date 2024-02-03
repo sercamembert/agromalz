@@ -31,7 +31,7 @@ const Navbar = () => {
       <motion.div
         className={`fixed w-screen h-full top-[80px] bg-primary padding text-[30px] flex flex-col gap-8 md:hidden z-50 ${
           isOpen && "text-white"
-        } ${isScrolled && "bg-primary"}`}
+        } ${isScrolled && isOpen && "bg-primary"}`}
         animate={isOpen ? "open" : "closed"}
         transition={{ duration: 0.5 }}
         variants={variants}
@@ -96,10 +96,10 @@ const Navbar = () => {
 
       <nav
         className={`w-full padding h-[80px] ${
-          isOpen && "bg-primary"
+          isOpen ? "bg-primary" : "bg-white"
         } fixed top-0 flex items-center justify-between xl:h-[100px] bg-none md:bg-none z-50 ${
           isScrolled && "md:bg-white"
-        }`}
+        } `}
       >
         <a href="/" aria-description="Strona główna">
           <Image
