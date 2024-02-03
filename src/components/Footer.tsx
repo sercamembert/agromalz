@@ -23,7 +23,7 @@ const Footer = () => {
                   width={30}
                   height={30}
                   alt="Lokalizacja"
-                  className="w-[14px] lg:w-[15px] xl:w-[19px] 3xl:w-[23px] desktop:w-[24px] ultra:w-[38px]"
+                  className="w-[14px] lg:w-[15px] xl:w-[19px] 3xl:w-[21px] ultra:w-[38px]"
                 />
                 <div>
                   <p className="footer-contact">Wocławy 10R, 83-020</p>
@@ -35,7 +35,7 @@ const Footer = () => {
                   width={30}
                   height={30}
                   alt="Lokalizacja"
-                  className="w-[14px] lg:w-[15px] xl:w-[19px] 3xl:w-[23px] desktop:w-[24px] ultra:w-[38px]"
+                  className="w-[14px] lg:w-[15px] xl:w-[19px] 3xl:w-[21px] ultra:w-[38px]"
                 />
                 <p className="footer-contact">+48 500 338 717</p>
               </div>
@@ -45,7 +45,7 @@ const Footer = () => {
                   width={89.6}
                   height={89.6}
                   alt="Lokalizacja"
-                  className="w-[14px] lg:w-[15px] xl:w-[19px] 3xl:w-[23px] desktop:w-[24px] ultra:w-[38px]"
+                  className="w-[14px] lg:w-[15px] xl:w-[19px] 3xl:w-[21px] ultra:w-[38px]"
                 />
                 <p className="footer-contact">agromalz@gmail.com</p>
               </div>
