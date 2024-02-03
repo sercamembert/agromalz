@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -11,8 +11,8 @@ html {
   .padding {
     @apply px-[20px] sm:px-[70px] md:px-[75px] lg:px-[90px] xl:px-[110px] 2xl:px-[120px] 3xl:px-[170px] desktop:px-[200px] ultra:px-[300px];
   }
-  
-  .navbar-link{
+
+  .navbar-link {
     @apply hover:font-semibold text-navbar text-[7.82px] md:text-[11px] xl:text-[15px] 2xl:text-[16px] desktop:text-[18px] hover:text-primary border-white border-b hover:border-primary duration-500;
   }
 
@@ -20,15 +20,23 @@ html {
     @apply hover:brightness-[75%] hover:scale-110 duration-300;
   }
 
-  .heading{
-    @apply  font-bold text-primary font-poppins leading-tight text-[24px] md:text-[25px] lg:text-[33px] xl:text-[41px] 2xl:text-[47px] desktop:text-[51px] ultra:text-[76px];
+  .heading {
+    @apply font-bold text-primary font-poppins leading-tight text-[24px] md:text-[25px] lg:text-[33px] xl:text-[41px] 2xl:text-[47px] desktop:text-[51px] ultra:text-[76px];
   }
 
-  .crops-gap{
-    @apply gap-[15px] md:gap-[45px] lg:gap-[60px] xl:gap-[75px] 2xl:gap-[85px] desktop:gap-[93px] ultra:gap-[141px]
+  .crops-gap {
+    @apply gap-[15px] md:gap-[45px] lg:gap-[60px] xl:gap-[75px] 2xl:gap-[85px] desktop:gap-[93px] ultra:gap-[141px];
   }
 
-  .service-text{
-    @apply text-[11px] lg:text-[15px] xl:text-[18px] 2xl:text-[20px] desktop:text-[22px] ultra:text-[33px]
+  .service-text {
+    @apply text-[11px] lg:text-[15px] xl:text-[18px] 2xl:text-[20px] desktop:text-[22px] ultra:text-[33px];
+  }
+
+  .footer-contact {
+    @apply text-[13px] lg:text-[16px] xl:text-[19px] desktop:text-[22px] ultra:text-[39px];
+  }
+
+  .footer-link {
+    @apply text-text md:hover:opacity-80 duration-300 font-medium text-[14px] lg:text-[17px] xl:text-[19px] desktop:text-[22px] ultra:text-[39px] py-[3px];
   }
 }
