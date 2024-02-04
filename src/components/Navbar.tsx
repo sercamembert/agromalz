@@ -75,7 +75,7 @@ const Navbar = () => {
         </Link>
 
         <Link
-          href="/onas"
+          href="/galeria"
           className="font-bold"
           onClick={() => {
             setIsOpen(false);
