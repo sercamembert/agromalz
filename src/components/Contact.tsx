@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="padding relative mb-[90px] md:mb-[80px] lg:mb-[104px] xl:mb-[130px] 3xl:mb-[140px] desktop:mb-[160px] ultra:mb-[240px]">
+    <section className="padding relative">
       <div className="container mx-auto">
         <div className="flex flex-col text-center w-full mb-[26px] md:mb-[40px] lg:mb-[53px] xl:mb-[66px] 2xl:mb-[55px] ultra:mb-[120px]">
           <h3 className="heading ">Kontakt</h3>

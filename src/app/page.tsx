@@ -19,7 +19,6 @@ export default function Home() {
       <Ratings />
       <Location />
       <Contact />
-      <Footer />
     </main>
   );
 }
