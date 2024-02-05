@@ -2,7 +2,10 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section className="padding relative">
+    <section
+      className="padding pt-[90px] md:pt-[80px] lg:pt-[104px] xl:pt-[130px] 3xl:pt-[140px] desktop:pt-[160px] ultra:pt-[240px]"
+      id="kontakt"
+    >
       <div className="container mx-auto">
         <div className="flex flex-col text-center w-full mb-[26px] md:mb-[40px] lg:mb-[53px] xl:mb-[66px] 2xl:mb-[55px] ultra:mb-[120px]">
           <h3 className="heading ">Kontakt</h3>

@@ -84,7 +84,7 @@ const Navbar = () => {
           Galeria
         </Link>
         <Link
-          href="/kontakt"
+          href="#kontakt"
           className="font-bold"
           onClick={() => {
             setIsOpen(false);
@@ -145,7 +145,7 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/wydarzenia"
+            href="/#kontakt"
             className="md:ml-[31px] lg:ml-[40px] xl:ml-[57px] 2xl:ml-[60px] flex items-center"
           >
             <button

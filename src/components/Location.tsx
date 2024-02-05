@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const Location = () => {
   return (
-    <div className="flex flex-col md:flex-row justify-between gap-y-[20px] mb-[90px] md:mb-[80px] lg:mb-[104px] xl:mb-[130px] 3xl:mb-[140px] desktop:mb-[160px] ultra:mb-[240px] padding">
+    <div className="flex flex-col md:flex-row justify-between gap-y-[20px] padding">
       <div className="flex flex-col gap-[19px] lg:gap-[26px] xl:gap-[33px] 2xl:gap-[37px] 3xl:gap-[39px] desktop:gap-[43px] ultra:gap-[65px]">
         <h3 className="heading text-left">Lokalizacja</h3>
         <div className="flex items-center gap-[7px] xl:gap-[10px] 2xl:gap-[12px] desktop:gap-[15px] ultra:gap-[21px]">

@@ -135,7 +135,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="py-[3px]">
-                    <Link className="footer-link" href="/kontakt">
+                    <Link className="footer-link" href="#/kontakt">
                       Kontakt
                     </Link>
                   </li>
