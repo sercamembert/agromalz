@@ -4,11 +4,11 @@ import Link from "next/link";
 
 const Crops = () => {
   return (
-    <div className="padding flex flex-col mb-[90px] md:mb-[80px] lg:mb-[104px] xl:mb-[130px] 3xl:mb-[140px] desktop:mb-[160px] ultra:mb-[240px]">
+    <div className="padding flex flex-col mb-[90px] md:mb-[80px] lg:mb-[104px] xl:mb-[130px] 3xl:mb-[140px] desktop:mb-[160px] ultra:mb-[240px] ">
       <h3 className="heading text-center mb-[26px] md:mb-[40px] lg:mb-[53px] xl:mb-[66px] 2xl:mb-[75px] ultra:mb-[120px]">
         Nasze uprawy
       </h3>
-      <div className="grid grid-cols-2 grid-rows-2 md:grid-cols-3 md:grid-rows-1 crops-gap">
+      <div className="grid grid-cols-2 grid-rows-3 md:grid-cols-3 md:grid-rows-2 crops-gap justify-center">
         <CropsBlock
           image="/images/crops/zboze.png"
           name="Zboże"
@@ -19,19 +19,46 @@ const Crops = () => {
           name="Cebula"
           text="Cebula to nieodłączna część naszych upraw"
         />
-        <div className=" col-span-2 flex justify-center md:col-span-1">
-          <div className="w-1/2 md:w-full">
-            <CropsBlock
-              image="/images/crops/slonecznik.png"
-              name="Słonecznik"
-              text="Słonecznik jest jedna z ważniejszych upraw"
-            />
-          </div>
+
+        <CropsBlock
+          image="/images/crops/rzepak.png"
+          name="Rzepak"
+          text="Rzepak jest jedna z ważniejszych upraw"
+        />
+
+        <div className=" md:hidden ">
+          <CropsBlock
+            image="/images/crops/groch.png"
+            name="Groch"
+            text="Jedna z wiodących upraw"
+          />
+        </div>
+
+        <div className="block md:hidden col-span-2 mx-auto w-1/2">
+          <CropsBlock
+            image="/images/crops/ziemniaki.png"
+            name="Ziemniaki"
+            text="Wkrótce planujemy uprawe ziemniaków"
+          />
+        </div>
+
+        <div className="hidden md:col-span-3 md:flex md:w-2/3 md:crops-gap md:justify-center md:mx-auto">
+          <CropsBlock
+            image="/images/crops/groch.png"
+            name="Groch"
+            text="Jedna z naszych wiodących upraw"
+          />
+
+          <CropsBlock
+            image="/images/crops/ziemniaki.png"
+            name="Ziemniaki"
+            text="Wkrótce planujemy uprawe ziemniaków"
+          />
         </div>
       </div>
       <p
         className="text-center font-semibold text-primary hover:opacity-80 duration-300 text-[12px] lg:text-[15px] xl:text-[19px] 2xl:text-[20px] desktop:text-[23px] ultra:text-[34px]
-      mt-[18px] md:mt-[21px] lg:mt-[26px] xl:mt-[34px] 2xlmt-[37px] desktop:mt-[40px] ultra:mt-[89px]
+      mt-[18px] md:mt-[21px] lg:mt-[26px] xl:mt-[34px] 2xl:mt-[37px] desktop:mt-[40px] ultra:mt-[89px]
       "
       >
         <Link href="/uprawy">Zobacz wszystkie uprawy</Link>

@@ -39,21 +39,18 @@ const Services = () => {
         <div className="flex flex-col gap-[35px] md:gap-[14px] lg:gap-[17px] xl:gap-[22px] 2xl:gap-[24px] desktop:gap-[27px] ultra:gap-[39px]">
           <ServiceBlock
             icon="/icons/crown.png"
-            title="Uprawa Cebuli Najwyższej Jakości"
-            text="Nasza gospodarka cebulowa specjalizuje się 
-                w uprawie cebuli najwyższej jakości."
+            title="Uprawa Najwyższej Jakości"
+            text="Nasze gospodarstwo specjalizuje się w uprawie cebuli, zbóż i rzepaku oraz niedługo ziemniaków spełniające wszelkie kryteria Global Gap oraz Grasp."
           />
           <ServiceBlock
             icon="/icons/plane.png"
-            title="Dystrybucja i Dostawa Cebuli"
-            text="Nasza firma oferuje usługę dostawy cebuli, 
-            która zapewnia wygodę naszym klientom."
+            title="Dystrybucja i Dostawa"
+            text="Nasza firma oferuje towar w pełni skalibrowany, przesortowany oraz spakowany gotowy do sprzedaży, która zapewnia wygodę naszych klientów."
           />
           <ServiceBlock
             icon="/icons/chart.png"
             title="Doradztwo Rolnicze"
-            text="Nasze gospodarstwo cebuli nie ogranicza się 
-            tylko do uprawy. Jesteśmy również ekspertami w dziedzinie rolnictwa."
+            text="Nasze gospodarstwo nie ogranicza się tylko do uprawy, corocznie organizujemy z firmami partnerskim warsztaty cebulowe gdzie dzielimy się swoim doświadczeniem."
           />
         </div>
       </div>

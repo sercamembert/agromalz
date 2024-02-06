@@ -9,7 +9,7 @@ interface Props {
 
 const CropsBlock = ({ image, name, text }: Props) => {
   return (
-    <div className="flex flex-col">
+    <div className="flex flex-col ">
       <Image
         src={image}
         alt={`${text}`}
@@ -24,7 +24,7 @@ const CropsBlock = ({ image, name, text }: Props) => {
       >
         {name}
       </p>
-      <p className="text-[9px] md:text-[10px] lg:text-[12.49px] xl:text-[15.12] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px]">
+      <p className="text-[9px] md:text-[10px] lg:text-[12.49px] xl:text-[15.12] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px] overflow-hidden">
         {text}
       </p>
     </div>

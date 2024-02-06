@@ -10,7 +10,7 @@ const Ratings = () => {
       font-bold text-primary font-poppins leading-tight text-[20px] md:text-[23px] lg:text-[30px] xl:text-[38px] 2xl:text-[43px] desktop:text-[47px] ultra:text-[71px]
       "
       >
-        Zoabcz co sądzą o nas klienci
+        Zobacz co sądzą o nas klienci
       </h3>
 
       <RatingsScroll>
