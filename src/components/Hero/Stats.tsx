@@ -20,9 +20,9 @@ const Stats = () => {
         />
       </div>
       <div className="flex justify-center md:justify-start gap-[12px] md:gap-[9px] lg:gap-[11px] xl:gap-[14px] 2xl:gap-[16px] desktop:gap-[17px] ultra:gap-[25px]">
-        <StatsBlock heading="54" text="Liczba maszyn" text2="rolniczych" />
-        <StatsBlock heading="5000" text="Suma naszych" text2="klientów" />
-        <StatsBlock heading="23" text="Ilość naszych" text2="własnych upraw" />
+        <StatsBlock heading="87" text="Liczba maszyn" text2="rolniczych" />
+        <StatsBlock heading="400+" text="Liczba naszych" text2="hektarów" />
+        <StatsBlock heading="6" text="Ilość naszych" text2="własnych upraw" />
       </div>
     </div>
   );

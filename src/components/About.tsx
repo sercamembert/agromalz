@@ -22,7 +22,7 @@ my-[90px] md:my-[80px] lg:my-[104px] xl:my-[130px] 3xl:my-[140px] desktop:my-[16
           <p className="text-[12px] md:text-[11px] lg:text-[12.49px] xl:text-[15.12px] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px]">
             Stawiamy na innowacyjne podejście do rolnictwa, dbając jednocześnie
             o ochronę środowiska. Nasze pola są owocem ciężkiej pracy i
-            staranności, zapewniając świeżość i wyjątkowy smak cebuli.
+            staranności, zapewniając świeżość i wyjątkowy smak naszych warzyw.
           </p>
         </div>
         <Link href="/onas" className="mt-[10px] lg:mt-[20px] xl:mt-[25px]">
