@@ -13,24 +13,28 @@ const Crops = () => {
           image="/images/crops/zboze.png"
           name="Zboże"
           text="Uprawiamy zboże najwyższej jakości"
+          href="/oferta/pszenica"
         />
         <CropsBlock
           image="/images/crops/cebula.png"
           name="Cebula"
           text="Cebula to nieodłączna część naszych upraw"
+          href="/oferta/cebula"
         />
 
         <CropsBlock
           image="/images/crops/rzepak.png"
           name="Rzepak"
           text="Rzepak jest jedna z ważniejszych upraw"
+          href="/oferta/rzepak"
         />
 
         <div className=" md:hidden ">
           <CropsBlock
             image="/images/crops/groch.png"
             name="Groch"
-            text="Jedna z wiodących upraw"
+            text="Jedna z naszych wiodących upraw"
+            href="/oferta/groch"
           />
         </div>
 
@@ -39,6 +43,7 @@ const Crops = () => {
             image="/images/crops/ziemniaki.png"
             name="Ziemniaki"
             text="Wkrótce planujemy uprawe ziemniaków"
+            href="/oferta/ziemniaki"
           />
         </div>
 
@@ -47,12 +52,14 @@ const Crops = () => {
             image="/images/crops/groch.png"
             name="Groch"
             text="Jedna z naszych wiodących upraw"
+            href="/oferta/groch"
           />
 
           <CropsBlock
             image="/images/crops/ziemniaki.png"
             name="Ziemniaki"
             text="Wkrótce planujemy uprawe ziemniaków"
+            href="/oferta/ziemniaki"
           />
         </div>
       </div>

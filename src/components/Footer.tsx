@@ -47,7 +47,7 @@ const Footer = () => {
                   alt="Lokalizacja"
                   className="w-[14px] lg:w-[15px] xl:w-[19px] 3xl:w-[21px] ultra:w-[38px]"
                 />
-                <p className="footer-contact">agromalz@gmail.com</p>
+                <p className="footer-contact">piotrmalz3@gmail.com</p>
               </div>
               <div className="flex gap-[20px] pt-[10px]">
                 <Link
