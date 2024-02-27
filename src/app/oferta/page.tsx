@@ -4,7 +4,7 @@ const page = () => {
   return (
     <div className="pt-[100px] 2xl:pt-[120px] desktop:pt-[140px] flex flex-col padding min-h-screen">
       <h1
-        className="font-semibold text-primary text-[23px] md:text-[30px] lg:text-[40px] xl:text-[56px] 2xl:text-[61px] desktop:text-[61]
+        className="font-semibold text-primary text-[25px] md:text-[30px] lg:text-[40px] xl:text-[56px] 2xl:text-[61px] desktop:text-[61]
       mb-[20px] md:mb-[38px] lg:mb-[44px] xl:mb-[63px] 2xl:mb-[72px] desktop:mb-[79px] ultra:mb-[115px]
       "
       >
@@ -37,7 +37,7 @@ const page = () => {
         />
       </div>
       <h1
-        className="font-semibold text-primary text-[23px] md:text-[30px] lg:text-[40px] xl:text-[56px] 2xl:text-[61px] desktop:text-[61]
+        className="font-semibold text-primary text-[25px] md:text-[30px] lg:text-[40px] xl:text-[56px] 2xl:text-[61px] desktop:text-[61]
       my-[20px] md:my-[38px] lg:my-[44px] xl:my-[63px] 2xl:my-[72px] desktop:my-[79px] ultra:my-[115px]"
       >
         Oferta Warzywa

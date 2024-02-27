@@ -21,19 +21,20 @@ const Services = () => {
         "
         >
           <p className="service-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut.
+            Nasze gospodarstwo rolnicze wyróżnia się nie tylko wysoką jakością
+            produktów, ale także dbałością o ekologię. Stawiamy na zrównoważone
+            metody uprawy, aby zapewnić zdrowe i ekologiczne produkty naszym
+            klientom.
           </p>
           <p className="service-text">
-            Aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident,
+            Innowacyjne podejście do rolnictwa pozwala nam nieustannie rozwijać
+            się i dostarczać naszym klientom coraz to nowsze i lepsze
+            rozwiązania w zakresie uprawy roślin oraz ochrony środowiska.
           </p>
           <p className="service-text">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Varius
-            sit amet mattis vulputate. Nunc vel risus commodo viverra. Dolor
+            Jesteśmy zawsze otwarci na współpracę i partnerskie relacje z
+            naszymi klientami. Razem tworzymy przyszłość rolnictwa, opartą na
+            szacunku do natury i innowacyjności.
           </p>
         </div>
         <div className="flex flex-col gap-[35px] md:gap-[14px] lg:gap-[17px] xl:gap-[22px] 2xl:gap-[24px] desktop:gap-[27px] ultra:gap-[39px]">
