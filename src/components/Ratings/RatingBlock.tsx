@@ -37,6 +37,7 @@ const RatingBlock = ({ name, text }: Props) => {
       <p
         className="text-text text-[9px] lg:text-[10px] xl:text-[12px] 2xl:text-[13px] desktop:text-[15px] ultra:text-[22px]
       w-[210px] md:w-[174px] lg:w-[230px] xl:w-[290px] 2xl:w-[326px] desktop:w-[358px] ultra:w-[527px]
+      mt-[5px] lg:mt-[9px] 2xl:mt-[11px]
       "
       >
         {text}

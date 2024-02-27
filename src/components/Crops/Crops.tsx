@@ -65,10 +65,10 @@ const Crops = () => {
       </div>
       <p
         className="text-center font-semibold text-primary hover:opacity-80 duration-300 text-[12px] lg:text-[15px] xl:text-[19px] 2xl:text-[20px] desktop:text-[23px] ultra:text-[34px]
-      mt-[18px] md:mt-[21px] lg:mt-[26px] xl:mt-[34px] 2xl:mt-[37px] desktop:mt-[40px] ultra:mt-[89px]
+      mt-[26px] md:mt-[31px] lg:mt-[45px] xl:mt-[50px] 2xl:mt-[55px] desktop:mt-[70px] ultra:mt-[89px]
       "
       >
-        <Link href="/uprawy">Zobacz wszystkie uprawy</Link>
+        <Link href="/oferta">Zobacz wszystkie uprawy</Link>
       </p>
     </div>
   );
