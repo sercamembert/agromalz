@@ -19,13 +19,14 @@ const config: Config = {
         ultra: "2560px",
       },
       colors: {
-        primary:"#023F3A",
+        primary: "#023F3A",
         navbar: "#584F49",
-        text:"#363636",
-        block:"#EBF0EF"
+        text: "#363636",
+        block: "#EBF0EF",
+        offer: "#808080",
       },
       fontFamily: {
-        poppins: ["Poppins","sans-serif"],
+        poppins: ["Poppins", "sans-serif"],
       },
     },
   },

@@ -39,7 +39,7 @@ const CropsBlockOffer = ({ image, name, text, href }: Props) => {
         {name}
       </p>
       <p
-        className="text-[#808080] text-[12px] lg:text-[15.49px] xl:text-[19.12px] 2xl:text-[21.38px] desktop:text-[23px] ultra:text-[35px]
+        className="text-offer text-[12px] lg:text-[15.49px] xl:text-[19.12px] 2xl:text-[21.38px] desktop:text-[23px] ultra:text-[35px]
       md:min-h-[60px] lg:min-h-[70px] xl:min-h-[90px] 2xl:min-h-[110px] ultra:min-h-[170px]
       "
       >
