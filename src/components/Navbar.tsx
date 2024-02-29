@@ -64,15 +64,6 @@ const Navbar = () => {
         >
           Oferta
         </Link>
-        <Link
-          href="/uprawy"
-          className="font-bold"
-          onClick={() => {
-            setIsOpen(false);
-          }}
-        >
-          Uprawy
-        </Link>
 
         <Link
           href="/galeria"
@@ -127,7 +118,7 @@ const Navbar = () => {
           </Link>
           <Link
             href="/onas"
-            className="navbar-link mx-[38px] lg:mx-[49px] xl:mx-[62px] 2xl:mx-[72px] desktop:mx-[85px]"
+            className="navbar-link  mx-[38px] lg:mx-[49px] xl:mx-[62px] 2xl:mx-[72px] desktop:mx-[85px]"
           >
             O nas
           </Link>
@@ -136,13 +127,9 @@ const Navbar = () => {
           </Link>
 
           <Link
-            href="/uprawy"
-            className="navbar-link mx-[38px] lg:mx-[49px] xl:mx-[62px] 2xl:mx-[72px] desktop:mx-[85px]"
+            href="/galeria"
+            className="navbar-link ml-[38px] lg:ml-[49px] xl:ml-[62px] 2xl:ml-[72px] desktop:ml-[85px]"
           >
-            Uprawy
-          </Link>
-
-          <Link href="/galeria" className="navbar-link">
             Galeria
           </Link>
 
