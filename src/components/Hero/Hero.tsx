@@ -17,7 +17,7 @@ const Hero = () => {
           innowacje, aby zapewnić najwyższą jakość naszych produktów.
         </p>
         <Link
-          href="/onas"
+          href="/#onas"
           className="bg-primary text-white rounded-[2px] xl:rounded-[4px] 3xl:rounded-[5px] 
           h-[25px] md:h-[22px] lg:h-[25px] xl:h-[31px] 2xl:h-[35px] desktop:h-[38px] ultra:h-[56px]
           font-medium font-poppins text-[12px] md:text-[9px] lg:text-[12px] xl:text-[13.62px] desktop:text-[15px] ultra:text-[23px] px-3 xl:px-6
@@ -39,6 +39,9 @@ const Hero = () => {
         width={877}
         height={952}
         className="w-full max-w-[260px] md:max-w-full mx-auto md:w-[46%] mt-[40px] md:mt-0"
+        loading="eager"
+        priority={true}
+        quality={100}
       />
       <div className="block md:hidden">
         <Stats />

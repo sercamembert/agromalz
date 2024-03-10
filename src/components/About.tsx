@@ -26,7 +26,7 @@ py-[90px] md:py-[80px] lg:py-[104px] xl:py-[130px] 3xl:py-[140px] desktop:py-[16
             staranności, zapewniając świeżość i wyjątkowy smak naszych warzyw.
           </p>
         </div>
-        <Link href="/onas" className="mt-[10px] lg:mt-[20px] xl:mt-[25px]">
+        <Link href="/#onas" className="mt-[10px] lg:mt-[20px] xl:mt-[25px]">
           <button
             className="bg-primary text-white rounded-[2px] xl:rounded-[4px] 3xl:rounded-[5px] 
           h-[25px] md:h-[22px] lg:h-[25px] xl:h-[31px] 2xl:h-[35px] desktop:h-[38px] ultra:h-[56px]

@@ -121,9 +121,12 @@ const Footer = () => {
               </div>
               <div className="w-full lg:w-4/12 ">
                 <ul className="list-unstyled">
-                  <Link className="footer-link" href="/">
-                    Strona główna
-                  </Link>
+                  <li>
+                    <Link className="footer-link" href="/">
+                      Strona główna
+                    </Link>
+                  </li>
+
                   <li className="py-[3px]">
                     <Link className="footer-link" href="/">
                       Regulamin
