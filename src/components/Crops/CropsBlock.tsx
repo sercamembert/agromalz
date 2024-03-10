@@ -38,14 +38,14 @@ const CropsBlock = ({ image, name, text, href }: Props) => {
         {name}
       </p>
       <p
-        className="text-[#808080] text-[9px] md:text-[10px] lg:text-[12.49px] xl:text-[15.12] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px]
+        className="text-[#808080] text-[10px] md:text-[12px] lg:text-[12.49px] xl:text-[15.12] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px]
       min-h-[27px] lg:min-h-[37px] 2xl:min-h-[55px] desktop:min-h-[66px] ultra:min-h-[81px]
       "
       >
         {text}
       </p>
       <p
-        className=" text-right  text-[9px] md:text-[10px] lg:text-[12.49px] xl:text-[15.12] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px] overflow-hidden
+        className=" text-right  text-[10px] md:text-[12px] lg:text-[12.49px] xl:text-[15.12] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px] overflow-hidden
         mt-[14px] md:mt-[17px] lg:mt-[23px] xl:mt-[29px] 2xl:mt-[32px] desktop:mt-[36px] ultra:mt-[45px]"
       >
         <Link

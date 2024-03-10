@@ -14,14 +14,14 @@ const StatsBlock = ({ heading, text, text2 }: Props) => {
   py-[8px] md:py-[6px] lg:py-[9px] xl:py-[10px] 2xl:py-[12px] ultra:py-[18px]
   "
     >
-      <p className="text-text text-center font-poppins font-medium text-[15px] md:text-[16px] lg:text-[21px] xl:text-[26px] 2xl:text-[29px] desktop:text-[32px] ultra:text-[48px] leading-tight">
+      <p className="text-text text-center font-poppins font-medium text-[16px] md:text-[16px] lg:text-[21px] xl:text-[26px] 2xl:text-[29px] desktop:text-[32px] ultra:text-[48px] leading-tight">
         {heading}
       </p>
       <div>
-        <p className="text-text text-center opacity-65 font-poppins font-medium text-[10px] md:text-[7px] lg:text-[8px] xl:text-[10px] 2xl:text-[11px] desktop:text-[13px] ultra:text-[19px] leading-tight">
+        <p className="text-text text-center opacity-65 font-poppins font-medium text-[12px] md:text-[7px] lg:text-[8px] xl:text-[12px] 2xl:text-[11px] desktop:text-[13px] ultra:text-[19px] leading-tight">
           {text}
         </p>
-        <p className="text-text text-center opacity-65 font-poppins font-medium text-[10px] md:text-[7px] lg:text-[8px] xl:text-[10px] 2xl:text-[11px] desktop:text-[13px] ultra:text-[19px] leading-tight">
+        <p className="text-text text-center opacity-65 font-poppins font-medium text-[12px] md:text-[7px] lg:text-[8px] xl:text-[12px] 2xl:text-[11px] desktop:text-[13px] ultra:text-[19px] leading-tight">
           {text2}
         </p>
       </div>

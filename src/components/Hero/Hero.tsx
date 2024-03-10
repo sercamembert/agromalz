@@ -20,7 +20,7 @@ const Hero = () => {
           href="/onas"
           className="bg-primary text-white rounded-[2px] xl:rounded-[4px] 3xl:rounded-[5px] 
           h-[25px] md:h-[22px] lg:h-[25px] xl:h-[31px] 2xl:h-[35px] desktop:h-[38px] ultra:h-[56px]
-          font-medium font-poppins text-[10px] md:text-[9px] lg:text-[10px] xl:text-[13.62px] desktop:text-[15px] ultra:text-[23px] px-3 xl:px-6
+          font-medium font-poppins text-[12px] md:text-[9px] lg:text-[12px] xl:text-[13.62px] desktop:text-[15px] ultra:text-[23px] px-3 xl:px-6
            button-animation cursor-pointer
            md:w-auto md:min-w-[94px] lg:min-w-[125px] xl:min-w-[155px] 2xl:min-w-[175px] desktop:min-w-[190px] ultra:min-w-[283px]
           flex items-center justify-center mx-auto md:mr-auto md:mx-0
