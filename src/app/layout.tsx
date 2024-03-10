@@ -7,8 +7,10 @@ import Footer from "@/components/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "AgroMalz",
-  description: "Gospodarstwo rolne agromalz",
+  title:
+    "AgroMalz: Wiodąca Uprawa Cebuli w Polsce - Pasja i Innowacje w Rolnictwie",
+  description:
+    "Odkryj AgroMalz, lidera w uprawie cebuli w Polsce. Nasze zaangażowanie i zrównoważone praktyki rolnicze gwarantują wyjątkową jakość i świeżość. Dołącz do nas i poczuj różnicę!",
 };
 
 export default function RootLayout({
@@ -17,7 +19,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="pl">
       <body className={inter.className}>
         <Navbar />
         {children}

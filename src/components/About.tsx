@@ -8,7 +8,8 @@ const About = () => {
   return (
     <div
       className="padding flex flex-col md:flex-row gap-[31px] lg:gap-[41px] xl:gap-[51px] 2xl:gap-[53px] 3xl:gap-[56px] desktop:gap-[63px] ultra:gap-[80px]
-my-[90px] md:my-[80px] lg:my-[104px] xl:my-[130px] 3xl:my-[140px] desktop:my-[160px] ultra:my-[240px]"
+py-[90px] md:py-[80px] lg:py-[104px] xl:py-[130px] 3xl:py-[140px] desktop:py-[160px] ultra:py-[240px]"
+      id="onas"
     >
       <div className="flex flex-col w-full justify-center">
         <h2 className="heading">Kim jesteśmy?</h2>

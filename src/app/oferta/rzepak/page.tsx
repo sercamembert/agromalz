@@ -2,6 +2,13 @@ import React from "react";
 
 import OfferHero from "@/components/offer/OfferHero";
 import OfferQuality from "@/components/offer/OfferQuality";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Rzepak z AgroMalz: Zrównoważona Uprawa dla Wysokiej Jakości Oleju",
+  description:
+    "Nasz rzepak to gwarancja jakości i ekologicznej uprawy. Poznaj nasze metody, które zapewniają zdrowy i naturalny olej rzepakowy, idealny dla Twojej kuchni.",
+};
 
 const page = () => {
   return (

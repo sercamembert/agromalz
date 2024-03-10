@@ -47,7 +47,7 @@ const Navbar = () => {
           Strona główna
         </Link>
         <Link
-          href="/onas"
+          href="/#onas"
           className="font-bold"
           onClick={() => {
             setIsOpen(false);
@@ -117,7 +117,7 @@ const Navbar = () => {
             Strona główna
           </Link>
           <Link
-            href="/onas"
+            href="/#onas"
             className="navbar-link  mx-[38px] lg:mx-[49px] xl:mx-[62px] 2xl:mx-[72px] desktop:mx-[85px]"
           >
             O nas

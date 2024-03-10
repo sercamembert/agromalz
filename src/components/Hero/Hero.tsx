@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="padding pt-[100px] 2xl:pt-[120px] desktop:pt-[140px] flex flex-col md:flex-row">
       <div className="flex flex-col gap-[10px] w-full md:max-w-[350px] lg:max-w-[463px] xl:max-w-[584px] 2xl:max-w-[657px] desktop:max-w-[709px] ultra:max-w-[1065px]">
         <h1 className="font-semibold text-primary text-[27px] md:text-[30px] lg:text-[40px] xl:text-[50px] 2xl:text-[56px] desktop:text-[61px] ultra:text-[91.71px] leading-tight text-center md:text-left">
-          Witamy na Naszym <br /> Gospodarstwie Rolnym!
+          Witamy w Naszym <br /> Gospodarstwie Rolnym!
         </h1>
         <p className="text-text text-[12px]  lg:text-[16px] xl:text-[20px] 2xl:text-[22px] desktop:text-[24px] ultra:text-[36px]  text-center md:text-left">
           Jesteśmy pasjonatami rolnictwa, którzy z pasją i zaangażowaniem

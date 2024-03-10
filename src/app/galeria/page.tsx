@@ -1,4 +1,11 @@
 import Gallery from "@/components/Gallery";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Galeria AgroMalz: Zobacz zdjęcia z naszego gospodarstwa",
+  description:
+    "Odkryj urok naszych pól przez galerię zdjęć AgroMalz. Zanurz się w świat pełen świeżości i naturalnego piękna naszych warzyw. Zainspiruj się naturą!",
+};
 
 const page = () => {
   return (

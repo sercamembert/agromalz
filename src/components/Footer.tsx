@@ -98,22 +98,22 @@ const Footer = () => {
               <div className="w-full lg:w-4/12  ml-auto">
                 <ul className="list-unstyled">
                   <li className="py-[3px]">
-                    <Link className="footer-link" href="/onas">
+                    <Link className="footer-link" href="/#onas">
                       O nas
                     </Link>
                   </li>
                   <li className="py-[3px]">
-                    <Link className="footer-link" href="/uprawy">
+                    <Link className="footer-link" href="/oferta">
                       Uprawy
                     </Link>
                   </li>
                   <li className="py-[3px]">
-                    <Link className="footer-link" href="/onas">
+                    <Link className="footer-link" href="/galeria">
                       Galeria
                     </Link>
                   </li>
                   <li className="py-[3px]">
-                    <Link className="footer-link" href="/onas">
+                    <Link className="footer-link" href="/oferta">
                       Oferta
                     </Link>
                   </li>
@@ -121,7 +121,7 @@ const Footer = () => {
               </div>
               <div className="w-full lg:w-4/12 ">
                 <ul className="list-unstyled">
-                  <Link className="footer-link" href="/onas">
+                  <Link className="footer-link" href="/">
                     Strona główna
                   </Link>
                   <li className="py-[3px]">
@@ -135,7 +135,7 @@ const Footer = () => {
                     </Link>
                   </li>
                   <li className="py-[3px]">
-                    <Link className="footer-link" href="#/kontakt">
+                    <Link className="footer-link" href="/#kontakt">
                       Kontakt
                     </Link>
                   </li>

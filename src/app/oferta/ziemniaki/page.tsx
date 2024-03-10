@@ -2,6 +2,13 @@ import React from "react";
 
 import OfferHero from "@/components/offer/OfferHero";
 import OfferQuality from "@/components/offer/OfferQuality";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Ziemniaki od AgroMalz: Naturalny Smak Polskiego Pola",
+  description:
+    "Nasze ziemniaki to esencja zdrowego życia. Odkryj wyjątkowy smak i jakość ziemniaków uprawianych z pasją przez AgroMalz, Twoje źródło naturalnych warzyw.",
+};
 
 const page = () => {
   return (
