@@ -34,7 +34,7 @@ const Hero = () => {
         </div>
       </div>
       <Image
-        src="/images/hero/hero.png"
+        src="/images/hero/hero.webp"
         alt="Gospodarstwo rolne Agromalz"
         width={877}
         height={952}
