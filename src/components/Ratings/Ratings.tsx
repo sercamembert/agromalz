@@ -27,7 +27,7 @@ const Ratings = () => {
 
           <RatingBlock
             name="Kamil"
-            text="Super jakość produktów. Sprawny i bezproblemowy załadunek. Świetny kontakt. Polecam serdecznie!"
+            text="Super jakość produktów. Sprawny i bezproblemowy załadunek. Świetny kontakt, polecam serdecznie!"
           />
         </div>
       </RatingsScroll>

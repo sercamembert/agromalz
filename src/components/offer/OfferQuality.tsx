@@ -59,7 +59,7 @@ const OfferQuality = () => {
           <OfferQualityBLock
             icon="/icons/gem.png"
             title="Standardy"
-            text="Nasze warzywa każdego roku są starannie badane oraz sprawdzane aby spełniły wszelkie standardy Dobrej Produkcji Rolniczej, certyfikatów Global G.A.P oraz G.R.A.S.P aby za zapewnić konsumenta że nasze warzywa są w pełni bezpiecznie i zdrowe."
+            text="Nasze warzywa każdego roku są starannie badane oraz sprawdzane, aby spełniły wszelkie standardy Dobrej Produkcji Rolniczej, certyfikatów Global G.A.P oraz G.R.A.S.P, aby za zapewnić konsumenta, że nasze warzywa są w pełni bezpiecznie i zdrowe."
           />
           <OfferQualityBLock
             icon="/icons/timer.png"

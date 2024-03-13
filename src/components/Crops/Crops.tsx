@@ -42,7 +42,7 @@ const Crops = () => {
           <CropsBlock
             image="/images/crops/ziemniaki.png"
             name="Ziemniaki"
-            text="Wkrótce planujemy uprawe ziemniaków"
+            text="Wkrótce planujemy uprawę ziemniaków"
             href="/oferta/ziemniaki"
           />
         </div>
@@ -58,7 +58,7 @@ const Crops = () => {
           <CropsBlock
             image="/images/crops/ziemniaki.png"
             name="Ziemniaki"
-            text="Wkrótce planujemy uprawe ziemniaków"
+            text="Wkrótce planujemy uprawę ziemniaków"
             href="/oferta/ziemniaki"
           />
         </div>

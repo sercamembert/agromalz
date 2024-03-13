@@ -41,7 +41,7 @@ const Services = () => {
           <ServiceBlock
             icon="/icons/crown.png"
             title="Uprawa Najwyższej Jakości"
-            text="Nasze gospodarstwo specjalizuje się w uprawie cebuli, zbóż i rzepaku oraz niedługo ziemniaków spełniające wszelkie kryteria Global Gap oraz Grasp."
+            text="Nasze gospodarstwo specjalizuje się w uprawie cebuli, zbóż i rzepaku oraz niedługo ziemniaków spełniające wszelkie kryteria Global Gap, oraz Grasp."
           />
           <ServiceBlock
             icon="/icons/plane.png"
@@ -51,7 +51,7 @@ const Services = () => {
           <ServiceBlock
             icon="/icons/chart.png"
             title="Doradztwo Rolnicze"
-            text="Nasze gospodarstwo nie ogranicza się tylko do uprawy, corocznie organizujemy z firmami partnerskim warsztaty cebulowe gdzie dzielimy się swoim doświadczeniem."
+            text="Nasze gospodarstwo nie ogranicza się tylko do uprawy, corocznie organizujemy z firmami partnerskim warsztaty cebulowe, gdzie dzielimy się swoim doświadczeniem."
           />
         </div>
       </div>

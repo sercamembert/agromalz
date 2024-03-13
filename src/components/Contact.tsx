@@ -23,7 +23,7 @@ const Contact = () => {
                   htmlFor="name"
                   className="text-[11px] lg:text-[15px] 2xl:text-[17px] desktop:text-[18px] ultra:text-[29px] text-gray-600"
                 >
-                  Imie i Nazwisko
+                  Imię i Nazwisko
                 </label>
                 <input
                   type="text"
