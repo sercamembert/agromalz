@@ -28,6 +28,7 @@ export default function RootLayout({
           content="gospodarstwo rolne, agromalz, cebula, tanie zboże, uprawa cebuli"
         />
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+        <meta property="og:image" content="/images/banner.png" />
       </Head>
       <body className={inter.className}>
         <Navbar />
