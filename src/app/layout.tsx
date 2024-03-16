@@ -32,11 +32,6 @@ export default function RootLayout({
           property="og:image"
           content="https://www.agromalz.pl/_next/image?url=%2Fimages%2Fbanner.png&w=640&q=75"
         />
-        <script
-          src="https://assets.usestyle.ai/seonajsplugin"
-          defer
-          id="seona-js-plugin"
-        ></script>
       </Head>
       <body className={inter.className}>
         <Navbar />
