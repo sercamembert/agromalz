@@ -75,7 +75,7 @@ const Navbar = () => {
           Galeria
         </Link>
         <Link
-          href="#kontakt"
+          href="/#kontakt"
           className="font-bold"
           onClick={() => {
             setIsOpen(false);
