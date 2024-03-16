@@ -38,6 +38,11 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+      <script
+        src="https://assets.usestyle.ai/seonajsplugin"
+        defer
+        id="seona-js-plugin"
+      ></script>
     </html>
   );
 }
