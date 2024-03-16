@@ -5,9 +5,9 @@ import OfferQuality from "@/components/offer/OfferQuality";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Żyto AgroMalz: Tradycyjne Zboże w Nowoczesnej Uprawie",
+  title: "Żyto Agro-Malz: Tradycyjne Zboże w Nowoczesnej Uprawie",
   description:
-    "Poznaj żyto od AgroMalz - połączenie tradycji i innowacyjności. Nasza uprawa żyta przekłada się na najwyższą jakość i wartości odżywcze, idealne dla zdrowego pieczywa.",
+    "Poznaj żyto od Agro-Malz - połączenie tradycji i innowacyjności. Nasza uprawa żyta przekłada się na najwyższą jakość i wartości odżywcze, idealne dla zdrowego pieczywa.",
 };
 
 const page = () => {

@@ -8,7 +8,7 @@ const Services = () => {
     <div className="padding relative flex flex-col mb-[65px] md:mb-[80px] lg:mb-[104px] xl:mb-[130px] 3xl:mb-[140px] desktop:mb-[160px] ultra:mb-[240px]">
       <Image
         src={rectangleImg}
-        alt="Usługi AgroMalz"
+        alt="Usługi Agro-Malz"
         className="absolute z-0 -left-[15%] md:-left-[5%] -top-[10%] w-[239px] h-[359px] lg:w-[443.11px] lg:h-[513.73px] lg:-left-[10%] xl:w-[543.11px] xl:h-[613.73px] 2xl:h-[680px] desktop:w-[670px] desktop:h-[720px] ultra:w-[964.87px] ultra:h-[1145.22px]"
       />
       <h3 className="heading text-left mb-[26px] md:mb-[40px] lg:mb-[53px] xl:mb-[66px] 2xl:mb-[75px] ultra:mb-[120px] z-10">

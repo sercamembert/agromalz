@@ -5,7 +5,7 @@ import OfferQuality from "@/components/offer/OfferQuality";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Rzepak z AgroMalz: Zrównoważona Uprawa dla Wysokiej Jakości Oleju",
+  title: "Rzepak z Agro-Malz: Zrównoważona Uprawa dla Wysokiej Jakości Oleju",
   description:
     "Nasz rzepak to gwarancja jakości i ekologicznej uprawy. Poznaj nasze metody, które zapewniają zdrowy i naturalny olej rzepakowy, idealny dla Twojej kuchni.",
 };

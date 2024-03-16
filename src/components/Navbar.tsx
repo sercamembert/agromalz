@@ -95,7 +95,7 @@ const Navbar = () => {
         <a href="/" aria-description="Strona główna">
           <Image
             src="/icons/logo.png"
-            alt="Agromalz"
+            alt="Agro-Malz"
             aria-description="Strona główna"
             width={318}
             height={193}

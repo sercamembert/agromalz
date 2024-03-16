@@ -3,9 +3,10 @@ import CropsBlockOffer from "@/components/Crops/CropBlockoOffer";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Oferta AgroMalz: Najwyższej Jakości Warzywa - Zdrowie z Polskich Pól",
+  title:
+    "Oferta Agro-Malz: Najwyższej Jakości Warzywa - Zdrowie z Polskich Pól",
   description:
-    "Przeglądaj naszą ofertę najwyższej jakości warzyw i zbóż. AgroMalz to synonim świeżości, smaku i naturalności. Wybierz zdrowie prosto z polskiej ziemi!",
+    "Przeglądaj naszą ofertę najwyższej jakości warzyw i zbóż. Agro-Malz to synonim świeżości, smaku i naturalności. Wybierz zdrowie prosto z polskiej ziemi!",
 };
 const page = () => {
   return (

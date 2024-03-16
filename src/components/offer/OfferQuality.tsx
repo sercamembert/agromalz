@@ -11,7 +11,7 @@ const OfferQuality = () => {
         mb-[25px] lg:mb-[50px] 2xl:mb-[65px] desktop:mb-[80px] ultra:mb-[100px]
         "
       >
-        W AgroMalz <br /> Stawiamy na Jakość
+        W Agro-Malz <br /> Stawiamy na Jakość
       </h1>
       <div className="flex flex-col md:flex-row md:justify-between">
         <div
@@ -37,7 +37,7 @@ const OfferQuality = () => {
         </div>
         <Image
           src="/images/offer/farmer-roku.png"
-          alt="Gospodarstwo rolne Agromalz"
+          alt="Gospodarstwo rolne Agro-Malz"
           width={669}
           height={810}
           className="w-full max-w-[260px] md:max-w-[33%] hidden md:block"
@@ -46,7 +46,7 @@ const OfferQuality = () => {
       <div className="flex flex-col md:flex-row md:justify-between md:mt-[43px] lg:mt-[57px] xl:mt-[71px] 2xl:mt-[80px] desktop:mt-[88px] ultra:mt-[139px]">
         <Image
           src="/images/offer/plon.png"
-          alt="Gospodarstwo rolne Agromalz"
+          alt="Gospodarstwo rolne Agro-Malz"
           width={669}
           height={810}
           className="w-full max-w-[260px] md:max-w-[27%] hidden md:block"
@@ -72,14 +72,14 @@ const OfferQuality = () => {
       <div className="flex flex-col items-center md:hidden mt-[90px] gap-[60px]">
         <Image
           src="/images/offer/farmer-roku.png"
-          alt="Gospodarstwo rolne Agromalz"
+          alt="Gospodarstwo rolne Agro-Malz"
           width={669}
           height={810}
           className="w-full max-w-[260px]"
         />
         <Image
           src="/images/offer/plon.png"
-          alt="Gospodarstwo rolne Agromalz"
+          alt="Gospodarstwo rolne Agro-Malz"
           width={669}
           height={810}
           className="w-full max-w-[260px]"

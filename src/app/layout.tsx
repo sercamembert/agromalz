@@ -9,9 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title:
-    "AgroMalz: Wiodąca Uprawa Cebuli w Polsce - Pasja i Innowacje w Rolnictwie",
+    "Agro-Malz: Wiodąca Uprawa Cebuli w Polsce - Pasja i Innowacje w Rolnictwie",
   description:
-    "Odkryj AgroMalz, lidera w uprawie cebuli w Polsce. Nasze zaangażowanie i zrównoważone praktyki rolnicze gwarantują wyjątkową jakość i świeżość. Dołącz do nas i poczuj różnicę!",
+    "Odkryj Agro-Malz, lidera w uprawie cebuli w Polsce. Nasze zaangażowanie i zrównoważone praktyki rolnicze gwarantują wyjątkową jakość i świeżość. Dołącz do nas i poczuj różnicę!",
 };
 
 export default function RootLayout({

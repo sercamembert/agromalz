@@ -150,7 +150,7 @@ const Footer = () => {
         <hr className="my-6 border-primary w-full" />
         <div className="w-full text-center py-1 flex flex-col items-center md:flex-row justify-between gap-y-[5px]">
           <p className="font-semibold text-text text-[13px] lg:text-[14px] xl:text-[17px] desktop:text-[19px] ultra:text-[39px">
-            © AgroMalz 2024
+            © Agro-Malz 2024
           </p>
           <Link
             className="text-text text-[11px] xl:text-[14px] desktop:text-[16px]"

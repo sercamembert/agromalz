@@ -15,7 +15,7 @@ py-[90px] md:py-[80px] lg:py-[104px] xl:py-[130px] 3xl:py-[140px] desktop:py-[16
         <h2 className="heading">Kim jesteśmy?</h2>
         <div className="flex flex-col gap-[10px] lg:gap-[15px] mt-[5px] ultra:max-w-[970px] ultra:gap-[20px]">
           <p className="text-[12px] md:text-[11px] lg:text-[12.49px] xl:text-[15.12px] 2xl:text-[18.38px] desktop:text-[22px] ultra:text-[27px]">
-            AgroMalz to wiodące gospodarstwo w uprawie cebuli w Polsce. Nasza
+            Agro-Malz to wiodące gospodarstwo w uprawie cebuli w Polsce. Nasza
             pasja i zaangażowanie przekładają się na najwyższą jakość naszych
             warzyw. Dzięki zrównoważonym praktykom rolniczym oferujemy produkty
             spełniające najwyższe standardy.
@@ -43,18 +43,18 @@ py-[90px] md:py-[80px] lg:py-[104px] xl:py-[130px] 3xl:py-[140px] desktop:py-[16
       <div className="flex flex-col gap-[5px] lg:gap-[7px] xl:gap-[9px]  desktop:gap-[10px] ultra:gap-[15px] w-full">
         <Image
           src={topImg}
-          alt="Agromalz"
+          alt="Agro-Malz"
           className="rounded-[6px] lg:rounded-[9px] xl:rounded-[11px] desktop:rounded-[13px] w-full"
         />
         <div className="flex gap-[5px] lg:gap-[7px] xl:gap-[9px]  desktop:gap-[10px] ultra:gap-[15px]">
           <Image
             src={leftImg}
-            alt="Agromalz"
+            alt="Agro-Malz"
             className="w-1/2 rounded-[6px] lg:rounded-[9px] xl:rounded-[11px] desktop:rounded-[13px]"
           />
           <Image
             src={rightImg}
-            alt="Agromalz"
+            alt="Agro-Malz"
             className="w-1/2 rounded-[6px] lg:rounded-[9px] xl:rounded-[11px] desktop:rounded-[13px]"
           />
         </div>

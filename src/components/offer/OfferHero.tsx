@@ -40,7 +40,7 @@ const OfferHero = ({ href, name, text }: Props) => {
       >
         <Image
           src={href}
-          alt="Gospodarstwo rolne Agromalz"
+          alt="Gospodarstwo rolne Agro-Malz"
           width={687}
           height={855}
           className="w-full max-w-[260px] md:max-w-full  h-full"

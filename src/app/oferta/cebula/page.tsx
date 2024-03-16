@@ -5,9 +5,9 @@ import OfferQuality from "@/components/offer/OfferQuality";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Najlepsza Cebula w Polsce od AgroMalz - Zdrowie i Smak z Natury",
+  title: "Najlepsza Cebula w Polsce od Agro-Malz - Zdrowie i Smak z Natury",
   description:
-    "Nasza cebula to kwintesencja smaku i jakości. Odkryj, jak pasja i zrównoważone metody uprawy AgroMalz przynoszą na Twój stół wyjątkowo zdrowe warzywa.",
+    "Nasza cebula to kwintesencja smaku i jakości. Odkryj, jak pasja i zrównoważone metody uprawy Agro-Malz przynoszą na Twój stół wyjątkowo zdrowe warzywa.",
 };
 
 const page = () => {

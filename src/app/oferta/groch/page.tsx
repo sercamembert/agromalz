@@ -5,9 +5,9 @@ import OfferQuality from "@/components/offer/OfferQuality";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Groch od AgroMalz: Ekologiczny Wybór dla Twojego Zdrowia",
+  title: "Groch od Agro-Malz: Ekologiczny Wybór dla Twojego Zdrowia",
   description:
-    "Wybierz groch od AgroMalz - uprawiany z miłością i szacunkiem do natury. Odkryj bogactwo smaku i korzyści zdrowotnych naszych zielonych perełek.",
+    "Wybierz groch od Agro-Malz - uprawiany z miłością i szacunkiem do natury. Odkryj bogactwo smaku i korzyści zdrowotnych naszych zielonych perełek.",
 };
 
 const page = () => {

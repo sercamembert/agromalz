@@ -5,9 +5,9 @@ import OfferQuality from "@/components/offer/OfferQuality";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Pszenica od AgroMalz: Innowacyjne Rolnictwo i Wysoka Jakość",
+  title: "Pszenica od Agro-Malz: Innowacyjne Rolnictwo i Wysoka Jakość",
   description:
-    "Poznaj naszą uprawę pszenicy - symbol innowacji i jakości w AgroMalz. Zobacz, jak nasza pasja przekłada się na wyjątkową pszenicę, idealną dla zdrowej diety.",
+    "Poznaj naszą uprawę pszenicy - symbol innowacji i jakości w Agro-Malz. Zobacz, jak nasza pasja przekłada się na wyjątkową pszenicę, idealną dla zdrowej diety.",
 };
 
 const page = () => {
