@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import Head from "next/head";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -20,6 +21,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pl">
+      <Head>
+        <meta property="og:url" content="https://www.agromalz.pl/" />
+        <meta
+          name="keywords"
+          content="gospodarstwo rolne, agromalz, cebula, tanie zboże, uprawa cebuli"
+        />
+        <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
+      </Head>
       <body className={inter.className}>
         <Navbar />
         {children}
